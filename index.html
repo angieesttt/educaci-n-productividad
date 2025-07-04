@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Más es mejor? - Artículo de Investigación</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9a66c2c.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f4f4f4;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1601933470928-c1e3087f7b71?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #f0f0f0;
+    }
+    nav {
+      background: #fff;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #0077ff;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #1e1e1e;
+    }
+    section p {
+      margin-bottom: 1rem;
+    }
+    .quote {
+      font-style: italic;
+      background-color: #e9f0ff;
+      border-left: 5px solid #0077ff;
+      padding: 1rem;
+      margin: 2rem 0;
+    }
+    .icon-box {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      background: #f9f9f9;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .icon-box i {
+      font-size: 2rem;
+      color: #0077ff;
+    }
+    .image-block {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .image-block img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .interactive {
+      background: #f0f8ff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+    .interactive button {
+      background: #0077ff;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .interactive button:hover {
+      background: #005fcc;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1e1e1e;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>¿Más es mejor?</h1>
+    <p>Así afecta la idea de productividad en la educación escolar</p>
+  </header>
+  <nav>
+    <a href="#realidad">Realidad educativa</a>
+    <a href="#jornada">Jornada Única</a>
+    <a href="#estres">Estrés académico</a>
+    <a href="#infancia">Infancia</a>
+    <a href="#internacional">Internacional</a>
+    <a href="#propuestas">Soluciones</a>
+    <a href="#entrevista">Crónica</a>
+  </nav>
+  <main>
+    <section id="intro">
+      <h2>Introducción</h2>
+      <div class="image-block">
+        <img src="https://images.unsplash.com/photo-1610398754234-3a198fdc670b?auto=format&fit=crop&w=1400&q=80" alt="Niños en el colegio">
+      </div>
+      <p>“Al que madruga, Dios le ayuda”, dicen en muchos hogares colombianos... (resumen).</p>
+    </section>
+
+    <section id="realidad">
+      <h2>Realidad educativa en Colombia</h2>
+      <div class="icon-box">
+        <i class="fas fa-chart-line"></i>
+        <p>Más de 6.000 colegios han cerrado en los últimos años.</p>
+      </div>
+      <p>Resultados académicos bajos y poca participación de los estudiantes en decisiones.</p>
+    </section>
+
+    <section id="jornada">
+      <h2>La Jornada Única</h2>
+      <p>Testimonios revelan que la jornada continua puede limitar el desarrollo personal.</p>
+      <div class="quote">
+        “Solo me dedicaba a estudiar. Llegaba a casa agotado.”
+      </div>
+    </section>
+
+    <section id="estres">
+      <h2>Estrés académico y burnout</h2>
+      <div class="interactive">
+        <p><strong>¿Has sentido estrés académico?</strong></p>
+        <p>Haz clic aquí para responder un test rápido y ver cómo te sientes.</p>
+        <button onclick="alert('Test en construcción 😊')">Responder test</button>
+      </div>
+      <p>Estudiantes presentan síntomas físicos y emocionales por la presión escolar.</p>
+    </section>
+
+    <section id="infancia">
+      <h2>Una exigencia desde la infancia</h2>
+      <p>Niños en jornadas largas desde los 3 años: efectos en el desarrollo socioemocional.</p>
+    </section>
+
+    <section id="internacional">
+      <h2>Comparación internacional</h2>
+      <p>En países como Dinamarca e Italia, la jornada es más corta y flexible.</p>
+    </section>
+
+    <section id="propuestas">
+      <h2>Rutas de mejora</h2>
+      <div class="icon-box">
+        <i class="fas fa-bullhorn"></i>
+        <p>Escuchar a los estudiantes debe ser el primer paso.</p>
+      </div>
+      <p>Reformular el concepto de éxito y priorizar el bienestar emocional en el aula.</p>
+    </section>
+
+    <section id="entrevista">
+      <h2>Crónica / Entrevista</h2>
+      <p><em>Muy pronto encontrarás aquí una crónica basada en experiencias estudiantiles...</em></p>
+    </section>
+  </main>
+  <footer>
+    © 2025 por Angie Estupiñán. Investigación crítica sobre educación escolar en Colombia.
+  </footer>
+</body>
+</html>
